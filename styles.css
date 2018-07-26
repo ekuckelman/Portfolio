@@ -76,7 +76,8 @@ body {
   left: 6%;
 }
 
-.about-title {
+.about-title,
+.projects-title {
   font-family: 'Oswald', sans-serif;
   font-size: 4em;
   text-align: center;
@@ -156,6 +157,101 @@ body {
 .bullet {
   color: #579570;
   margin-right: .5em;
+}
+
+/*Projects*/
+.left-line,
+.right-line {
+  border: 5px solid #579570;
+  width: 28.5em;
+  position: absolute;
+  top: 51%;
+}
+
+.left-line {
+  left: 6%;
+}
+
+.right-line {
+  right: 6%; 
+}
+
+.projects-paragraph {
+  position: relative;
+  width: 58.5em;
+  left: 11.3%;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 2px 67px;
+}
+
+.project {
+  position: relative;
+}
+
+.project-title {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+  color: #579570;
+}
+
+.project-title h1 {
+  margin: 2px;
+}
+
+.screenshot {
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+}
+
+.project-screenshot {
+  width: 25em;
+  height: 21em;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.project-screenshot:hover {
+  transition: opacity 0.8s ease-in-out;
+  opacity: 0;
+}
+
+.project-info {
+  display: inline-block;
+  position: absolute;
+  width: 29.7em;
+  left: 0%;
+}
+
+.description {
+  width: 18em;
+  margin-left: 1.2em;
+  font-size: 1.2em;
+}
+
+.project-list {
+  list-style: none;
+  padding-left: 4em;
+}
+
+.project-list li {
+  margin: 0;
+  margin-bottom: .5em;
+  font-size: 1.2em;
+}
+
+.github-link {
+  text-align: center;
+  text-decoration: none;
+  color: #579570;
+  font-size: 1.2em;
 }
 
 /*Footer*/
