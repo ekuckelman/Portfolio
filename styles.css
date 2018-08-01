@@ -112,12 +112,17 @@ body {
 }
 
 .divider-line {
-  border: 5px solid #579570;
-  width: 87.3%;
+  display: none;
   position: relative;
-  left: 6%;
+  text-align: center;
   margin: 1em 0;
+  font-size: 2.5em;
 }
+
+/*.trees {
+  color: #579570;
+  padding: 0 .5em;
+}*/
 
 .skills-container {
   margin-bottom: 1em;
@@ -129,6 +134,11 @@ body {
   position: relative;
 }
 
+.designer-skills-container {
+  display: inline-block;
+  position: absolute;
+  right: 41%;
+}
 .professional-skills-container {
   display: inline-block;
   position: absolute;
@@ -136,10 +146,12 @@ body {
 }
 
 .developer-title,
+.designer-title,
 .professional-title {
   font-family: 'Oswald', sans-serif;
   font-size: 3em;
   margin: 5px 0px;
+  margin-top: 1em;
 }
 
 .skills-list {
