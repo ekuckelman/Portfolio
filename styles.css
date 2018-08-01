@@ -228,6 +228,7 @@ body {
   position: absolute;
   width: 29.7em;
   left: 0%;
+  top: 15%;
 }
 
 .description {
@@ -238,7 +239,7 @@ body {
 
 .project-list {
   list-style: none;
-  padding-left: 4em;
+  padding-left: 3em;
 }
 
 .project-list li {
