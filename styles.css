@@ -129,14 +129,14 @@ body {
   position: relative;
 }
 
-.developing-skills-container {
+.professional-skills-container {
   display: inline-block;
   position: absolute;
   right: 6%;
 }
 
-.developing-title,
-.tech-skills-title {
+.developer-title,
+.professional-title {
   font-family: 'Oswald', sans-serif;
   font-size: 3em;
   margin: 5px 0px;
