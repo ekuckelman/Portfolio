@@ -47,9 +47,14 @@ body {
   cursor: pointer;
 }
 
+.contact-nav,
 .blog {
   text-decoration: none;
   color: black;
+}
+
+.contact-nav:hover {
+  text-decoration: underline #579570;
 }
 
 .nav-one {
@@ -272,6 +277,7 @@ body {
 /*Footer*/
 
 .footer {
+  margin-top: 5em;
   background-color: black;
   color: white;
 }
@@ -298,14 +304,19 @@ body {
   color: #579570;
 }
 
-.menu-blog {
+
+.menu-blog,
+.contact {
   color: white;
   text-decoration: none;
 }
 
 .menu-blog:hover {
   color: #579570;
-  
+}
+
+.contact:hover {
+  color: #579570;
 }
 
 .social-container {
