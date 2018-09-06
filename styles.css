@@ -57,7 +57,7 @@ body {
 }
 
 .nav-item:hover {
-  color: #579570;
+  text-decoration: underline #579570;
 }
 
 .title-container {
@@ -95,10 +95,10 @@ body {
 
 .profile-picture {
   position: absolute;
-  left: 13%;
-  bottom: 18%;
-  width: 15em;
-  height: 18em;
+  left: 11%;
+  bottom: 12%;
+  width: 19em;
+  height: 25em;
   padding: 10px;
   border: 10px solid;
 }
@@ -129,16 +129,18 @@ body {
 }
 
 .technical-skills-container {
-  display: inline-block; 
-  left: 6%; 
-  position: relative;
-}
-
-.designer-skills-container {
   display: inline-block;
   position: absolute;
   right: 41%;
 }
+
+.designer-skills-container {
+  display: inline-block; 
+  left: 6%;
+  right: 41%;
+  position: relative;
+}
+
 .professional-skills-container {
   display: inline-block;
   position: absolute;
