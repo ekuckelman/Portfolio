@@ -116,24 +116,11 @@ body {
   font-size: 1.2em;
 }
 
-.divider-line {
-  display: none;
-  position: relative;
-  text-align: center;
-  margin: 1em 0;
-  font-size: 2.5em;
-}
-
-/*.trees {
-  color: #579570;
-  padding: 0 .5em;
-}*/
-
 .skills-container {
   margin-bottom: 1em;
 }
 
-.technical-skills-container {
+.developer-skills-container {
   display: inline-block;
   position: absolute;
   right: 41%;
@@ -142,7 +129,6 @@ body {
 .designer-skills-container {
   display: inline-block; 
   left: 6%;
-  right: 41%;
   position: relative;
 }
 
@@ -369,4 +355,112 @@ body {
   margin-left: 5px;
   color: #579570;
   text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+  .header, .about-me-container, 
+  .title-container, .skills-container,
+  .projects-container {
+    width: 845px;
+  }
+
+  .nav-left {
+    right: 9%;
+  }
+
+  .nav-one {
+    margin-right: 1.5em;
+  }
+
+  .logo {
+    width: 7em;
+    height: 7em;
+    left: 43%;
+  }
+
+  .logo-text {
+    font-size: 5.1em;
+  }
+
+  .nav-right {
+    left: 15%;
+  }
+
+  .line-left, .line-right {
+    width: 15em;
+  }
+
+  .profile-picture {
+    left: 4%;
+    bottom: 30%;
+    width: 17em;
+    height: 23em;
+  }
+
+  .designer-skills-container {
+    left: 37%;
+  }
+
+  .developer-skills-container {
+    right: 15%;
+  }
+
+  .professional-skills-container {
+    position: relative;
+    left: 39%;
+  }
+
+  .developer-title, .designer-title,
+  .professional-title {
+    font-size: 2em;
+   }
+
+  .skill {
+    font-size: 1.3em;
+  }
+
+  .left-line {
+    left: 4%;
+    width: 14em;
+  }
+
+  .right-line {
+    right: 2%;
+    width: 15em;
+  }
+
+  .projects-paragraph {
+    width: 788px;
+  }
+
+  .projects-container {
+    margin-left: 22px;
+  }
+
+  .project-screenshot {
+    width: 24em;
+    height: 19em;
+  }
+
+  .footer {
+    width: 860px;
+  }
+
+  .menu-container {
+    margin: 1.7% 0 1.7% 0%;
+  }
+
+  .social-container {
+    position: relative;
+    right: -1.5%;
+  }
+
+  .portfolio-info-container {
+    position: relative;
+    left: 7%;
+  }
+
+  .menu-list-right {
+    padding-left: 10px;
+  }
 }
