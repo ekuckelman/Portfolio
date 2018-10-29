@@ -363,19 +363,30 @@ body {
   .projects-container {
     width: 845px;
   }
+  
+  .nav-item {
+    display: block;
+    font-size: 2em;
+  }
+
+  .blog {
+    font-size: 1.1em;
+  }
 
   .nav-left {
     right: 9%;
+    top: 2.7em;
   }
 
   .nav-one {
-    margin-right: 1.5em;
+    margin: 0;
+    margin-bottom: 1em;
   }
 
   .logo {
     width: 7em;
     height: 7em;
-    left: 43%;
+    left: 39%;
   }
 
   .logo-text {
@@ -383,63 +394,121 @@ body {
   }
 
   .nav-right {
-    left: 15u%;
+    left: 35%;
+    top: 2.7em;
   }
 
   .line-left, .line-right {
-    width: 15em;
+    display: none;
   }
 
+  .about-title {
+    margin-top: .5em;
+    margin-bottom: 0;
+  }
+
+  .about-title {
+    text-align: inherit;
+    position: relative;
+    left: 31%;
+    font-size: 5em;
+  }
+
+  .about-paragraphs {
+    display: inline-block;
+    position: relative;
+    left: 6%;
+    width: 85%;
+    font-size: 2.8em;
+  }
+
+  .paragraph-one {
+    margin-top: 20px;
+  }
+  
   .profile-picture {
-    left: 4%;
-    bottom: 30%;
-    width: 17em;
-    height: 23em;
-  }
-
-  .designer-skills-container {
-    left: 37%;
+    display: none;
   }
 
   .developer-skills-container {
-    right: 15%;
+    display: block;
+    position: relative;
+    left: 6%;
+  }
+
+  .designer-skills-container {
+    display: block;
+    left: 6%;
   }
 
   .professional-skills-container {
     position: relative;
-    left: 39%;
+    left: 6%;
   }
 
   .developer-title, .designer-title,
   .professional-title {
-    font-size: 2em;
+    font-size: 4em;
+    margin-top: 5px;
    }
 
-  .skill {
-    font-size: 1.3em;
+  .skills-list {
+    padding-left: 5px;
+    font-size: 1.7em;
   }
 
-  .left-line {
-    left: 4%;
-    width: 14em;
+  .left-line, .right-line {
+    display: none;
   }
 
-  .right-line {
-    right: 2%;
-    width: 15em;
+  .projects-title {
+    font-size: 5em;
   }
+
 
   .projects-paragraph {
-    width: 788px;
+    width: 15.7em;
+    margin-left: 16px;
+    font-size: 2.8em;
   }
 
   .projects-container {
     margin-left: 22px;
   }
 
+  .project-title {
+    font-size: 2.3em;
+    text-align: unset;
+    position: relative;
+    left: 28%;
+  }
+
+  .screenshot {
+    position: relative;
+    left: 7%;
+  }
+
   .project-screenshot {
-    width: 24em;
-    height: 19em;
+    width: 41em;
+    height: 32em;
+  }
+
+  .project-info {
+    left: 20%;
+  }
+
+  .description {
+    width: 15em;
+    font-size: 2.2em;
+    margin-left: 0;
+  }
+
+  .project-list {
+    margin-left: 1em;
+  }
+
+  .project-list li {
+    font-size: 2em;
   }
 
   .footer {
@@ -447,7 +516,7 @@ body {
   }
 
   .menu-container {
-    margin: 1.7% 0 1.7% 0%;
+    display: none;
   }
 
   .social-container {
@@ -462,5 +531,28 @@ body {
 
   .menu-list-right {
     padding-left: 10px;
+  }
+
+  .projects-container {
+    display: block; 
+  }
+
+  .portfolio-info-container {
+    display: none;
+  }
+
+  .social-container {
+    right: 0%;
+    left: 29%;
+    bottom: 1em;
+  }
+
+  .social-container h2 {
+    font-size: 2.8em;
+    margin-top: 0;
+  }
+
+  .social-container a {
+    font-size: 1.5em;
   }
 }
